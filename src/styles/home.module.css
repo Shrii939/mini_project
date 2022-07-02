@@ -1,0 +1,46 @@
+.IMG{
+    width: 20%;
+    height: 20rem;
+    border-radius : 50%;
+    position : absolute;
+    right :0;
+    left:80%;
+}
+
+.STY{
+    width: 100%;
+    padding : 5rem 0 0 2rem;
+}
+
+@media only screen and (min-width : 100px) {
+    .container{
+      display: block;
+    }
+    .IMG{
+      display: block;
+      padding: auto;
+    }
+  }
+
+  @media only screen and (min-width:250px) and (max-width:1000px) {
+    .container{
+      display: block;
+    }
+  }
+  @media screen and (min-width:300px) {
+    .container{
+      display: block;
+      float: inherit;
+      margin-top: 20rem;
+    }
+    select#Blood{
+      width: 21.3rem;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: #f7f7f7;
+      font-family: Montserrat,Arial, Helvetica, sans-serif;
+    }
+    
+  }

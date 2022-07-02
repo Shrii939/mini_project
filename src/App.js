@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Navabar from "./components/Navabar";
 import Ngo from './components/Ngo'
 import User from "./components/User";
+import Donate from "./components/Donate";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route exact path="/about" element={<About />}> </Route>
             <Route exact path="/ngo" element={<Ngo />}> </Route>
             <Route exact path="/user" element={<User />}> </Route>
+            <Route exact path='/donate' element={<Donate />}> </Route>
 
           </Routes>
         </div>

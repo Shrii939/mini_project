@@ -12,6 +12,10 @@ const Navabar = () => {
 
 //   }
 
+const login = () => {
+    
+}
+
     return (
         <div>
             <nav className="navbar navbar-expand-lg bg-light">
@@ -29,13 +33,17 @@ const Navabar = () => {
                                 <Link className="nav-link" to={"/about"}>About</Link>
                             </li>
                             
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <Link className="nav-link" to={"/ngo"}>Ngo</Link>
+                            </li> */}
+
+                            <li className="nav-item">
+                                <Link className="nav-link" to={"/donate"}>Donate</Link>
                             </li>
                         </ul>
                         <form className="d-flex" role="search">
-                            <button className="btn bg-light border mx-2" type="submit">Login</button>
-                            <button className="btn btn-warning mx-2" type="submit">Signin</button>
+                            {/* <button className="btn bg-warning border mx-2" type="submit" onClick={login}>Login</button> */}
+                            {/* <button className="btn btn-warning mx-2" type="submit">Signin</button> */}
                             <Link to={"/user"}><MdAccountCircle size={33} className='mx-2'/></Link>
                         </form>
                     </div>

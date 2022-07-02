@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document2</title>
+</head>
+<body>
+    <h1>GIVE FOOD SAVE LIVES!</h1>
+    <div class="split left">
+    <P>Donating to the needy is a great way to improve the conditions in your neighborhood or community.</P>
+    <br>
+    <p> Donating food to the worthy people or organizations helps counter poverty, hunger and at the same time, it can improve harmony, friendliness, and trust among residents.</P>
+        <br>
+    <p>Children and teenages are healthy enough to attend school where they learn both academics and social skills</p>
+    <br>
+    <p>Children and teenagers can grow properly when not experiencing malnutrition</p>
+    <br>
+    <p>Adults have the health and energy needed to go to work and pay bills, afford necessities, and support their families</p>
+    <br>
+    <p>Seniors get the nutrition they need to stay healthy as they get older</p>
+    <br>
+    <p>Chronically ill and disabled people are able to get the additional nutrients they require and have dietary restrictions met without sacrificing their overall well-being</p>
+    </div>
+    <div class="maindiv">
+
+    </div>
+    <br>
+
+</body>
+</html>
